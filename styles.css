@@ -11,11 +11,15 @@ body{
     text-align: left
 }
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
+    z-index: 100;
 }
 nav ul {
     list-style: none;
